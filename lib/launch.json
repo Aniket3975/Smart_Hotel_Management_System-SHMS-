@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch HotelManagementApp",
+            "request": "launch",
+            "mainClass": "HotelManagementApp",
+            "classPaths": [
+                "${workspaceFolder}/bin",
+                "${workspaceFolder}/lib/mysql-connector-java-8.x.x.jar"
+            ]
+        }
+    ]
+}
